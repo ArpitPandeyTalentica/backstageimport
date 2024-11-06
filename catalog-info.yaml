@@ -5,4 +5,4 @@ metadata:
 spec:
   locations:
     - type: url
-      target: https://raw.githubusercontent.com/ArpitPandeyTalentica/backstageimport/main/apicollectionimport.yaml
+      target: https://github.com/ArpitPandeyTalentica/backstageimport/blob/main/apicollectionimport.yaml
