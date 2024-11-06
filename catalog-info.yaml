@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Catalog
+metadata:
+  name: backstageimport-catalog
+spec:
+  locations:
+    - type: url
+      target: https://raw.githubusercontent.com/ArpitPandeyTalentica/backstageimport/main/apicollectionimport.yaml
