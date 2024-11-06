@@ -1,0 +1,188 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hello-world-openapi
+  description: A simple Hello World OpenAPI
+  tags:
+    - openapi
+    - hello
+spec:
+  type: openapi
+  lifecycle: production
+  owner: API
+  definition: |
+    # Hello World OpenAPI
+    This is a simple Hello World API using OpenAPI specification.
+    It provides a simple endpoint to return a greeting message.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/blob/Talentica-backstage-integration/hello-world-openapi.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-graphql-api
+  description: Weather GraphQL API
+  tags:
+    - graphql
+    - weather
+spec:
+  type: graphql
+  lifecycle: production
+  owner: API
+  definition: |
+    # GraphQL Weather API
+    A GraphQL API to fetch weather data for a city.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/blob/Talentica-backstage-integration/Wheather-api/api/my-graphql-api.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: my-grpc-api
+  description: Weather gRPC API
+  tags:
+    - grpc
+    - weather
+spec:
+  type: grpc
+  lifecycle: production
+  owner: API
+  definition: |
+    # gRPC Weather API
+    A gRPC API to fetch weather data.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/blob/Talentica-backstage-integration/Wheather-api/api/my-grpc-api.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: feature-proto-api
+  description: Feature-specific Proto API
+  tags:
+    - protobuf
+    - feature
+spec:
+  type: protobuf
+  lifecycle: production
+  owner: API
+  definition: |
+    # Feature Proto API
+    A protobuf API for weather feature data.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/blob/Talentica-backstage-integration/Wheather-api/api/feature-proto-api.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: weather-forecast-api
+  description: Weather Forecast OpenAPI
+  tags:
+    - openapi
+    - weather
+spec:
+  type: openapi
+  lifecycle: production
+  owner: API
+  definition: |
+    # Weather Forecast API
+    A simple weather forecast API to fetch weather data for different cities.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/blob/Talentica-backstage-integration/Wheather-api/api/weather-forecast-api.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: catalog-wheather
+  description: Catalog Weather API
+  tags:
+    - openapi
+    - catalog
+spec:
+  type: openapi
+  lifecycle: production
+  owner: API
+  definition: |
+    # Catalog Weather API
+    A catalog-based weather API that helps in managing weather data.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/blob/Talentica-backstage-integration/catalog-wheather.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: postman-demo-api
+  description: Postman Demo API
+  tags:
+    - postman
+    - demo
+spec:
+  type: openapi
+  lifecycle: production
+  owner: AUTH API
+  definition: |
+    # Postman Demo API
+    A Postman demo API with authentication.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/edit/Talentica-backstage-integration/Wheather-api/api/postman-demo-api.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: weather-forecast-api-with-auth
+  description: Weather Forecast API with Authentication
+  tags:
+    - openapi
+    - weather
+    - auth
+spec:
+  type: openapi
+  lifecycle: production
+  owner: AUTH API
+  definition: |
+    # Weather Forecast API with Authentication
+    Weather forecast API with JWT authentication.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/edit/Talentica-backstage-integration/Wheather-api/api/weather-forecast-api-with-auth.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: postman-api-with-auth-specific
+  description: Postman API with Auth Specific
+  tags:
+    - postman
+    - auth
+spec:
+  type: openapi
+  lifecycle: production
+  owner: AUTH API
+  definition: |
+    # Postman API with Auth Specific
+    A Postman API that demonstrates specific authentication methods.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/edit/Talentica-backstage-integration/Wheather-api/api/postman-api-with-auth-specific.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: postman-api-with-multiauth
+  description: Postman API with Multiple Authentication Methods
+  tags:
+    - postman
+    - multiauth
+spec:
+  type: openapi
+  lifecycle: production
+  owner: AUTH API
+  definition: |
+    # Postman API with Multi Auth
+    A Postman API that supports multiple authentication mechanisms.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/edit/Talentica-backstage-integration/Wheather-api/api/postman-api-with-multiauth.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: postman-demo-api-with-jwt
+  description: Postman Demo API with JWT
+  tags:
+    - postman
+    - jwt
+spec:
+  type: openapi
+  lifecycle: production
+  owner: AUTH API
+  definition: |
+    # Postman Demo API with JWT
+    A Postman API that uses JWT authentication.
+    See full definition at: https://github.com/rrrraj729/Wheather-api/edit/Talentica-backstage-integration/Wheather-api/api/postman-demo-api-with-jwt.yaml
